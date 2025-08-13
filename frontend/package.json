@@ -1,0 +1,14 @@
+{
+  "name": "aetheriongenesis-frontend",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "echo \"Replace with vite dev\" && exit 0",
+    "build": "echo \"Replace with vite build\" && exit 0",
+    "start": "echo \"Replace with vite preview\" && exit 0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

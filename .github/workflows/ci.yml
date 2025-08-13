@@ -1,0 +1,17 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Node check
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - run: echo "Add real build/test steps for frontend here"
+      - name: Python check
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: echo "Add real test steps for backend here"
